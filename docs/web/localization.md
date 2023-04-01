@@ -82,7 +82,7 @@ return [
   'failed' => 'Diese Anmeldeinformationen stimmen nicht mit unseren Aufzeichnungen überein.',
   'password' => 'Das angegebene Passwort ist falsch.',
   'throttle' => 'Zu viele Anmeldeversuche. Bitte versuchen Sie es in :seconds Sekunden erneut.',
-];
+]
 ``` 
 Left side of the expression in both JSON and PHP files are `Key` and should not be changed. Only the right side which is `Value` must be changed.
 
