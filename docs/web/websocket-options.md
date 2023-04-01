@@ -95,7 +95,7 @@ window.Echo = new Echo({
     forceTLS: false,
     disableStats: true
     // highlight-end
-});
+})
 ```
 
 ### Rebuild assets & restart services
