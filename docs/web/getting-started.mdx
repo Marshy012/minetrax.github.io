@@ -169,11 +169,11 @@ You need to create a MySQL/MariaDB database and a user with all permission to th
 mysql -u root -p
 
 // Create the database
-CREATE DATABASE minetrax;
+CREATE DATABASE minetrax
 // Create the user, change 'randomStrongPassword' to any strong password of your choice.
-CREATE USER 'minetrax'@'localhost' IDENTIFIED BY 'randomStrongPassword';
+CREATE USER 'minetrax'@'localhost' IDENTIFIED BY 'randomStrongPassword'
 // Give permission of the DB to user
-GRANT ALL PRIVILEGES ON minetrax.* TO 'minetrax'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON minetrax.* TO 'minetrax'@'localhost' WITH GRANT OPTION
 exit
 ```
 
@@ -354,10 +354,10 @@ In this step we are going to setup [Pusher](https://pusher.com) as our websocket
    Eg:
 
 ```js
-app_id = "1367909";
-key = "4b48b850682acb371c34";
-secret = "41cc8be68c0d57fea4f3";
-cluster = "ap2";
+app_id = "1367909"
+key = "4b48b850682acb371c34"
+secret = "41cc8be68c0d57fea4f3"
+cluster = "ap2"
 ```
 
 After this open your `.env` file and replace the pusher related credentials to match above.
